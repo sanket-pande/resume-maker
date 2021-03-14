@@ -1,5 +1,50 @@
 * {
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
+}
+
+.i-size {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.skill-name {
+    border-bottom: 4px solid black;
+    font-weight: 600;
+    width: 100%;
+    margin: 0.75rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.skill-list {
+    padding-inline-start: 25px;
+    margin-bottom: 20px;
+}
+
+.skill-list.last-list {
+    margin-bottom: 0;
+}
+
+.skill-list li {
+    margin: 3px 0;
+}
+
+.highlight span {
+    /* padding: 2px 0; */
+    font-weight: 600;
+}
+
+.b {
+    font-weight: 600;
+}
+
+.i {
+    font-style: italic;
+}
+
+.b-line {
+    margin: 1rem 0;
+    border-bottom: 1px solid #ccc;
 }
 
 .resume-body {
@@ -31,20 +76,34 @@
 }
 
 .topic-container .content {
-    flex: 2;
+    flex: 3;
     text-align: justify;
+}
+
+.point-container {
+    margin: 10px 0;
+}
+
+.point-container .sub-heading {
+    margin: 2px 0;
 }
 
 .btn {
     margin: 50px 45%;
 }
 
-.f-small span {
+.f-small .hlp {
+    font-size: 0.8rem;
+    /* font-size: 0.9rem; */
+}
+
+.f-small {
     font-size: 0.8rem;
 }
 
 .sub-heading {
     font-weight: 600;
+    font-size: 0.8rem;
 }
 
 .section-padding {
@@ -59,6 +118,10 @@
 .resume-section {
     border-bottom: 1px solid #ccc;
     padding: 1.5rem 0;
+}
+
+.resume-section:last-child {
+    border-bottom: none;
 }
 
 .name-section {
@@ -132,6 +195,7 @@ body {
 .subpage {
     height: 277mm;
     /* outline: 10mm #f0eaff solid; */
+    overflow: hidden;
 }
 
 @page {
