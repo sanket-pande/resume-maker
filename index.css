@@ -14,6 +14,20 @@
     width: 100%;
     margin: 0.75rem 0;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.f-mid {
+    font-size: 0.9rem;
+}
+
+.experience .skill-list {
+    margin-top: 0.5rem;
+}
+
+.experience .skill-list li {
+    font-size: 0.8rem;
+    text-align: justify;
 }
 
 .skill-list {
@@ -43,7 +57,7 @@
 }
 
 .b-line {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     border-bottom: 1px solid #ccc;
 }
 
@@ -146,7 +160,7 @@
 }
 
 .section-heading {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     width: max-content;
     margin-bottom: 1rem;
