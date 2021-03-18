@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+.p-summary.content {
+    text-align: justify;
+}
+
 .skill-name {
     border-bottom: 4px solid black;
     font-weight: 600;
