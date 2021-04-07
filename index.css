@@ -29,11 +29,6 @@
     margin-top: 0.5rem;
 }
 
-.experience .skill-list li {
-    font-size: 0.8rem;
-    text-align: justify;
-}
-
 .skill-list {
     padding-inline-start: 25px;
     margin-bottom: 20px;
@@ -45,6 +40,30 @@
 
 .skill-list li {
     margin: 3px 0;
+}
+
+.lang-frmwrk.skill-list{
+    padding-inline-start: 0px;
+}
+.lang-frmwrk.skill-list li {
+    display: inline-block;
+    text-align: justify;
+}
+
+.lang-frmwrk.skill-list li::before{
+    content: "";
+    display: inline-block; 
+    border-radius: 50%;
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    position: relative;
+    margin: 0.2rem 0.6rem;
+}
+
+.experience .skill-list li {
+    font-size: 0.8rem;
+    text-align: justify;
 }
 
 .highlight span {
