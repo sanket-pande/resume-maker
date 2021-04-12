@@ -1,6 +1,6 @@
 # Resume Maker
 
-Project to create a Updated Resume from a predefined Template
+Project to create a Updated Resume from a predefined template
 
 --------------------------------------------------------------
 

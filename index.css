@@ -204,12 +204,16 @@
 }
 
 .project-desc{
-    text-align: center;
-    margin: 5px 0;
+    margin: 5px auto;
 }
 
 .project-desc.b{
     margin-top: 40px;
+}
+
+.project-desc ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .main-container{
