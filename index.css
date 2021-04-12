@@ -1,6 +1,6 @@
-* {
-    /* outline: 1px solid green; */
-}
+/* * {
+    outline: 1px solid green;
+} */
 
 .i-size {
     font-size: inherit;
@@ -126,7 +126,7 @@
 }
 
 .btn {
-    margin: 50px 45%;
+    margin: 25px auto;
 }
 
 .f-small .hlp {
@@ -203,6 +203,28 @@
     font-size: 1rem;
 }
 
+.project-desc{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.project-desc.b{
+    margin-top: 40px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.iframe-container{
+    width: 220mm;
+    min-height: 300mm;
+    margin: 10mm auto;
+    /* padding: 15px 0; */
+    /* border: 1px blue solid; */
+}
+
 
 /* ----------------------------- Print Page CSS ---------------------------- */
 
@@ -211,7 +233,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
+    background-color: #eeeeee;
     font: 12pt "Tahoma";
 }
 
@@ -224,7 +246,7 @@ body {
     width: 210mm;
     min-height: 297mm;
     padding: 10mm;
-    margin: 10mm auto;
+    margin: auto;
     border: 1px red solid;
     background: white;
 }
