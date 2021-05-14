@@ -121,6 +121,10 @@
     margin: 10px 0;
 }
 
+.point-container:last-child {
+    margin-bottom: 0;
+}
+
 .point-container .sub-heading {
     margin: 2px 0;
 }
@@ -162,7 +166,7 @@
 }
 
 .name-section {
-    width: 55%;
+    width: 50%;
     border-right: 1px solid #ccc;
 }
 
@@ -229,6 +233,19 @@
     /* border: 1px blue solid; */
 }
 
+.employment .point-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employment .duration {
+    font-size: 0.9rem;
+}
+
+.employment .company {
+    font-size: 0.8rem;
+}
 
 /* ----------------------------- Print Page CSS ---------------------------- */
 
